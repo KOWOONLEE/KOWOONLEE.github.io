@@ -330,7 +330,7 @@ section {
 
 .section-title p {
   font-size: 20px;
-  margin-bottom: 0;
+  margin-bottom: 10px;
 }
 
 /*--------------------------------------------------------------
@@ -342,7 +342,11 @@ section {
   color: #173b6c;
   margin-bottom: 20px;
 }
-
+.profileImg {
+  display: flex;
+  width: 18vw;
+  margin: 0 auto;
+}
 .about .content p {
   font-size: 1.2em;
   margin-bottom: 20px;
@@ -442,7 +446,7 @@ section {
 }
 .skillTitle {
   font-weight: bold;
-  margin-bottom: 20px;
+  margin: 10px 0 10px 0;
 }
 
 .skills .progress .skill {
@@ -483,7 +487,7 @@ section {
 .resume .resume-title {
   font-size: 26px;
   font-weight: 700;
-  margin-top: 20px;
+  margin-top: 5px;
   margin-bottom: 20px;
   color: #050d18;
 }
